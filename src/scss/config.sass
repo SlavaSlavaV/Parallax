@@ -1,0 +1,27 @@
+// USER VARIABLES SECTION
+$bg: #000000
+$transition: 1.75s cubic-bezier(.2, .6, 0, 1) // animation slider
+
+// FONTS LOAD SECTION
+
+@import "fonts"
+
+// IMPORT SECTION
+
+@import 'node_modules/normalize.css/normalize'
+@import 'node_modules/swiper/swiper-bundle'
+
+// GENERAL DOCUMENT STYLES
+
+*,
+*::before,
+*::after
+	box-sizing: border-box
+
+html, body 
+	width: 100vw
+	height: 100vh
+	margin: 0
+
+body
+	background-color: $bg
